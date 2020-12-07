@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="GTN Methodologies Cluster"
+	preserve-order="true">
+
+	<test name="Close Accrual GTN Methodologies" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T32_WholeSaler_Close_Accrual_Backend" />
+			<class
+				name="com.dRive.tests.regression.T37_Chargebacks_Fed_VA_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T41_Cash_Discount_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T42_Returns_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T47_Gross_Demand_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T49_Gross_Inventory_Change_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T51_Actual_Gross_Inventory_Change" />
+			<class
+				name="com.dRive.tests.regression.T52_Specialty_Pharmacy_Chargebacks_Prime_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T54_Copay_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T56_Coverage_Gap_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T57_GPO_Admin_Fee_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T60_Tricare_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T65_Net_Sales_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T69_Coupon_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T71_Mckesson_VA_Admin_Fees_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T72_Specialty_Pharmacy_Rebates_And_Fees_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T75_Patient_Assistance_Program_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.Medicaid_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.Managed_Care_Close_Accrual" />
+			
+		</classes>
+	</test>
+
+	<test name="Forecast Accrual GTN Methodologies"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T33_WholeSaler_Forecasted_Accrual_Backend" />
+			<class
+				name="com.dRive.tests.regression.T38_Chargebacks_Fed_VA_Forecast_Accrual" />
+
+			<class
+				name="com.dRive.tests.regression.T43_Cash_Discount_Forecast_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T44_Returns_Forecast_Accrual" />
+
+			<class
+				name="com.dRive.tests.regression.T48_Gross_Demand__Forecast_Accrual" />
+
+			<class
+				name="com.dRive.tests.regression.T50_Gross_Inventory_Change_Forecast_Accrual" />
+
+		</classes>
+	</test>
+
+	<test name="Actual Earned GTN Methodologies" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T45_Actual_Cash_Discount_Explain_Report" />
+			<class
+				name="com.dRive.tests.regression.T46_Actual_Returns_Explain_Report" />
+			<class
+				name="com.dRive.tests.regression.T51_Actual_Gross_Inventory_Change" />
+			<class
+				name="com.dRive.tests.regression.T77_Patience_Assistance_Program_Actual_Rebate" />
+			<class
+				name="com.dRive.tests.regression.T78_Actual_Copay_Programs" />
+			<class
+				name="com.dRive.tests.regression.T79_Actual_Coupons" />
+			<class
+				name="com.dRive.tests.regression.T80_Actual_Coverage_Gap" />
+			<class
+				name="com.dRive.tests.regression.T81_Actual_GPO_Admin_Fee_Novation" />
+			<class
+				name="com.dRive.tests.regression.T82_Actual_IFF_Admin_Fee" />
+			<class
+				name="com.dRive.tests.regression.T83_Actual_Mckesson_VA_Admin_Fee_Dollar" />
+			<class
+				name="com.dRive.tests.regression.T84_Actual_Specialty_Pharmacy_Rebates_And_Fees" />
+			<class
+				name="com.dRive.tests.regression.T85_Actual_Tricare" />
+			<class
+				name="com.dRive.tests.regression.T86_Chargebacks_Fed_VA_Actual_Explain_Report" />
+			<class
+				name="com.dRive.tests.regression.T87_Specialty_Pharmacy_Chargebacks_Actual_Explain_Report" />
+			<class
+				name="com.dRive.tests.regression.T88_Gross_Demand_Actual_Explain_Report" />
+			<class
+				name="com.dRive.tests.regression.T89_Managed_Care_Actual_Explain_Report" />
+			<class
+				name="com.dRive.tests.regression.T90_Medicaid_Actual_Explain_Report" />
+			<class
+				name="com.dRive.tests.regression.T91_Net_Sales_Actual_Explain_Report" />
+		</classes>
+	</test>
+
+</suite>

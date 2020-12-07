@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Drive GTN Smoke Test Suite" thread-count="1" preserve-order="true">
+	<!-- <listeners> <listener class-name = 'com.automation.report.CustomizedEmailableReport'/> 
+		</listeners> -->
+
+ <test name="GTN CrossBrowser Test">
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<groups>		
+       <run>
+      <include name = "CrossBrowser"/>
+       </run>
+     </groups>
+		<classes>
+			<class name="com.dRive.tests.regression.TC_GTN_CrossBrowser"/>
+		</classes>
+	</test>
+	
+ <!-- <test name="Smoke Test IE">
+   <parameter name="browser" value="chrome"></parameter>
+   <classes>
+			<class name="com.dRive.tests.quicksmoke.TechConfigCBFB_test"/>
+		</classes>
+	</test> 
+ -->
+</suite>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Drive Regression Test Suite"
+	preserve-order="true">
+
+<!-- <test name="Regression Test" preserve-order="true">
+	<groups>	
+				<run>	
+   					 <include name="Close Approval" />	
+       		</run>	
+       		</groups>	
+		
+		<classes>
+			<class name = "com.dRive.tests.Approval.TC_Close_Approval_Summary_Verification" />
+		</classes>
+
+	</test> -->
+
+	<test name="Regression Test" preserve-order="true">
+	<groups>	
+				<run>	
+   					 <include name="Manual Adjustment" />	
+   					 <!-- <include name="Manual Adjustment FA" /> -->
+   					 <!-- <include name="Pre_Config" /> -->	
+       		</run>	
+       		</groups>	
+		
+		<classes>
+			<class name = "com.dRive.tests.GTNSnapshot.TC_GTN_Snapshot_Verification" />
+		</classes>
+
+	</test>
+ 	
+<!-- 		<test name="Regression Test" preserve-order="true">
+	<groups>	
+				<run>	
+  					 <include name="Pre_Config" />	Module wise Suite
+        		</run>	
+       		</groups>	
+		
+		<classes>
+			<class name = "com.dRive.tests.GTNSnapshot.TC_GTN_Snapshot_Verification" />
+			
+		</classes>
+
+	</test>
+ -->	
+	
+<!-- <test name="Parallel Regression Test" thread-count = "14" parallel = "methods">
+	<classes>
+	<class name = "com.dRive.tests.regression.Trial" />
+	</classes>
+	</test>  -->	
+</suite>

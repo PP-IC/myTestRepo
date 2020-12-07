@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Drive APM to GTN Cluster"
+	preserve-order="true">
+
+	<test name="APM" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T06_Create_Assign_AP_TC_13to17_and_28to31" />
+			<class
+				name="com.dRive.tests.regression.T07_Using_PCM_Pricing_TC_01_to_10_For_PSC_TC85" />
+			<class
+				name="com.dRive.tests.regression.T08_Pricing_Scenario_Collection_TC_71_to_78" />
+		</classes>
+	
+	</test>
+
+	<test name="Snapshot creation" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T19_Create_AE_AP_Close_Forecast" />
+
+		</classes>
+	</test>
+
+	<test name="Snapshot verification" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T20_Verify_Close_Forecast_Snapshots" />
+		</classes>
+	</test>
+
+	<test
+		name="To create and verify True Up, Pipeline, Required Reserved and Balance Sheet snapshot"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T21_Create_True_Up_Pipeline" />
+			<class
+				name="com.dRive.tests.regression.T22_Create_Verify_RR_BS_Snapshots" />
+		</classes>
+	</test>
+
+	<test name="Verify Close Summary" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T23_Close_Summary_Screen_TC_7_to_16" />
+			<class
+				name="com.dRive.tests.regression.T25_Close_Summary_Screen_TC_17_to_19" />
+
+		</classes>
+	</test>
+
+	<test name="Verify Reconciliation reports" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T26_Internal_External_BS_Reconciliation" />
+		</classes>
+	</test>
+</suite>

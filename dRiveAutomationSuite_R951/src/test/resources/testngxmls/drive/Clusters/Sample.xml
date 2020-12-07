@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Drive Price Change Manager Cluster"
+	preserve-order="true">
+
+	<test name="Must Haves" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T01_PCM_Pricing_TC_01_to_10" />
+			<class name="com.dRive.tests.regression.T02_PCM_WAC_TC_11_13" />
+			<class name="com.dRive.tests.regression.T03_Maintenance_TC_14_16" />
+			<class name="com.dRive.tests.regression.T04_Admin_Tech_Config_17_18" />
+			<class name="com.dRive.tests.regression.T05_Admin_FB_19_20" />
+			<class name="com.dRive.tests.regression.T06_GTN_Methodologies_21_22" />
+			<class name="com.dRive.tests.regression.T07_GTN_UI_23_24" />
+			<class name="com.dRive.tests.regression.T08_Claims_Medicaid_25_26" />
+			<class name="com.dRive.tests.regression.T09_Claims_Managed_Care_27_29" /> 
+			<class name="com.dRive.tests.regression.T10.PCM_BG_30_31" />
+		</classes>
+	</test>
+	
+	<test name="Pricing Change Manager" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T02_PCM_Price_Term_TC_63_to_67" />
+			<class name="com.dRive.tests.regression.T03_PCM_Contract_BG_Workflows_TC_61_to_TC_62_TC_68_to_TC70" />
+			<class name="com.dRive.tests.regression.T04_WAC_Change_Workflows_TC_58_to_60" />
+			<class name="com.dRive.test.regression.T34_WAC_New_TCs" />
+			<class name="com.dRive.tests.regression.T36_Expiring_Price_Change_TC_306" />
+		</classes>
+	</test>
+	
+	<test name="Editors" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T09_Editors_TC_18to27" />
+			<class name="com.dRive.tests.regression.T10_Editors_TC_281_to_285" />
+			<class name = "com.dRive.tests.regression.T11.Editors_TC_286_to_289" />
+			<class name="com.dRive.tests.regression.T12_Editors_TC_290_291" />
+			<class name="com.dRive.tests.regression.T13_Metric_Summary_TC94_to_109" />
+			<class name="com.dRive.tests.regression.T14_TSE_TC_110_to_116_TC_119_120" />
+			<class name="com.dRive.tests.regression.T15_TSE_TC_117_118_121" />
+			<class name="com.dRive.tests.regression.T18_Upload_Editors_TC_264_to_269" />
+			<class name="com.dRive.tests.regression.T35_TSE_TC_277_to_280" />
+		</classes>
+	</test>
+	
+	<test name="Product Labels" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T16_Product_labels_TCs" />
+		</classes>
+	</test>
+	
+	<test name="Release History" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T17_Release_History_TCs" />
+		</classes>
+	</test>
+	
+	<test name="APM to snapshot">
+		<classes>
+			<class name="com.dRive.tests.regression.T19_Create_AE_AP_Close_Forecast" />
+		</classes>
+	</test>
+	
+	<test name="Verify Snapshot to Close Summary Workflow" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T20_Verify_Close_Forecase_Snapshots" />
+			<class name="com.dRive.tests.regression.T21_Create_True_Up_Pipeline" />
+			<class name="com.dRive.tests.regression.T22_Create_Verify_RR_BS_Snapshots" />
+			<class name="com.dRive.tests.regression.T23_Close_Summary_Screen_TC_7_to_16" />
+			<class name="com.dRive.tests.regression.T25_Close_Summary_Screen_TC_17_to_19" />
+		</classes>
+	</test>
+	
+	<test name="Verify dRive Reconciliation reports">
+		<classes>
+			<class name="com.dRive.tests.regression.T26_Internal_External_BS_Reconciliation" />
+		</classes>
+	</test>
+	
+	<test name="Verify APM alternate scenario">
+		<classes>
+			<class name="com.dRive.tests.regression.T27_APM_Test_TC_86_To_93" />
+		</classes>
+	</test>
+	
+	<test name="Verify GTN UI" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T28_GTN_UI_Part1" />
+			<class name="com.dRive.tests.regression.T29_GTN_UI_Part2" />
+			<class name="com.dRive.tests.regression.T30_GTN_UI_Part3" />
+			<class name="com.dRive.tests.regression.T31_GTN_CommpareSnapshot_TCs" />
+		</classes>
+	</test>
+	
+	<test name="Verify GTN Methodologies" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T32_WholeSaler_Close_Accrual_Backend" />
+			<class name="com.dRive.tests.regression.T33_WholeSaler_Forecasted_Accrual_Backend" />
+			<class name="com.dRive.tests.regression.T37_Chargebacks_Fed_VA_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T38_Chargebacks_Fed_VA_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T41_Cash_Discount_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T42_Returns_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T43_Cash_Discount_Explain_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T44_Returns_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T45_Actual_Cash_Discount_Explain_Report" />
+			<class name="com.dRive.tests.regression.T46_Actual_Returns_Explain_Report" />
+			<class name="com.dRive.tests.regression.T47_Gross_Demand_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T48_Gross_Demand_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T49_Gross_Inventory_Change_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T50_Gross_Inventory_Change_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T51_Actual_Gross_Inventory_Change" />
+			<class name="com.dRive.tests.regression.T52_Specialty_Pharmacy_Chargebacks_Prime_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T54_Copay_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T55_Copay_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T56_Coverage_Gap_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T57_GPO_Admin_Fee_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T58_Specialty_Pharmacy_Chargebacks_Prime_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T60_Tricare_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T61_Tricare_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T64_Coverage_Gap_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T65_Net_Sales_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T66_New_Sales_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T67_Forecasted_Calender_Year_Coverage_Gap_Rebate_Dollar" />
+			<class name="com.dRive.tests.regression.T68_Forecasted_Calender_Year_Copay_Program_Dollar" />
+			<class name="com.dRive.tests.regression.T69_Coupon_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T70_Coupon_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T71_McKesson_VA_Admin_Fees_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T72_McKesson_VA_Admin_Fees_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T73_Specialty_Pharmacy_Rebates_And_Fees_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T74_Specialty_Pharmacy_Rebates_Adnd_Fees_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T75_Patient_Assistance_Program_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T76_Patient_Assistance_Program_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T77_Patient_Assistance_Program_Actual_Rebate" />
+			<class name="com.dRive.tests.regression.T78_Actual_Copay_Programs" />
+			<class name="com.dRive.tests.regression.T79_Actual_Coupons" />
+			<class name="com.dRive.tests.regression.T80_Actual_Covergae_Gap" />
+			<class name="com.dRive.tests.regression.T81_Actual_GPO_Admin_Fee_Novation" />
+			<class name="com.dRive.tests.regression.T82_Actual_IFF_Admin_Fee" />
+			<class name="com.dRive.tests.regression.T83_Actual_Mckesson_VA_Admin_Fee_Dollar" />
+			<class name="com.dRive.tests.regression.T84_Actual_Specialty_Pharmacy_Rebates_And_Fees" />
+			<class name="com.dRive.tests.regression.T85_Actual_Tricare" />
+			<class name="com.dRive.tests.regression.T86_Chargebacks_Fed_VA_Actual_Explain_Report" />
+			<class name="com.dRive.tests.regression.T87_Specialty_Pharmacy_Chargebacks_Actual_Explain_Report" />
+			<class name="com.dRive.tests.regression.T88_True_Up_Accrual" />
+		</classes>
+	</test>
+	
+	<test name="VIZualizer">
+		<classes>
+			<class name="com.dRive.tests.regression.T24_VIZualizer" />
+		</classes>
+	</test>
+	
+	<test name="Government Pricing" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T39_GP_TC_1_to_16" />
+			<class name="com.dRive.tests.regression.T40_GP_TC_17_to_26" />
+		</classes>
+	</test>
+
+
+</suite>

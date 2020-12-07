@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Drive Price Change Manager Cluster"
+	preserve-order="true">
+
+	<test name="PCM Price Change" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T01_PCM_Pricing_TC_01_to_10" />
+		<!-- 	<class
+				name="com.dRive.tests.regression.T02_PCM_Price_Term_TC_63_to_67" /> -->
+		</classes>
+	</test>
+<!-- 
+	<test name="PCM WAC" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T04_WAC_Change_Workflows_TC_58_to_60" />
+
+			<class name="com.dRive.tests.regression.T34_WAC_New_TCs" />
+
+		</classes>
+	</test>
+
+	<test name="PCM Contract/BG" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T03_PCM_Contract_BG_Workflows_TC_61_to_TC_62_TC_68_to_TC70" />
+		</classes>
+	</test>
+
+	<test name="PCM Contract Extension" preserve-order="true">
+		<classes>
+
+		</classes>
+	</test>
+
+	<test name="PCM Dashboard" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T36_Expiring_Price_Change_TC_306" />
+		</classes>
+	</test>
+ -->
+
+</suite>

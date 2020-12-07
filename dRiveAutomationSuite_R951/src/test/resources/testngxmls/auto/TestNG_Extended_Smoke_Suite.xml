@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Drive Extended Smoke Test Suite"
+	preserve-order="true">
+ 
+	<test name="Create PCM" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.extendedsmoke.T01_PCM_Pricing_Creation" />
+		</classes>
+	</test> 
+	
+	<suite verbose="0" name="Create Editors" parallel = "methods" thread-count = "3">
+
+	<test name="Create Clone All Editors" >
+		<classes>
+			<class
+				name="com.dRive.tests.extendedsmoke.T02_Create_Clone_All_Editors_for_AP" />
+		</classes>
+	</test>
+ 
+	<test name="Create Assumption Packages" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.extendedsmoke.T03_Create_Assign_Assumption_Pkg" />
+		</classes>
+	</test>
+
+	<test name="Actual Earned Paid Close Forecast Snapshots"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.extendedsmoke.T04_Create_AE_AP_Close_Forecast" />
+		</classes>
+	</test>
+
+	<test name="True Up And Pipeline Snapshots" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.extendedsmoke.T05_Create_True_Up_Pipeline" />
+		</classes>
+	</test>
+
+	<test name="Required Reserve And BS Snapshots" preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.extendedsmoke.T06_Create_Verify_RR_BS_Snapshots" />
+		</classes>
+	</test>
+
+	<test name="Close Summary Screen Publish Snapshots"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.extendedsmoke.T07_Close_Summary_Publish_Snapshots" />
+		</classes>
+	</test>
+	
+	<test name="Editors-APM-RolesAndSecurity-PCM Smoke Test" parallel="classes"
+		thread-count="4">
+		<classes>
+			<class name="com.dRive.tests.extendedsmoke.T08_Editors_test" />
+			<class name="com.dRive.tests.extendedsmoke.T09_APM_test" />
+			<class name="com.dRive.tests.extendedsmoke.T11_Roles_And_Security_test" />
+			<class name="com.dRive.tests.extendedsmoke.T12_PCM_test" />
+		</classes>
+	</test>
+
+	<test name="GTN Smoke Test" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.extendedsmoke.T10_GTN_test" />
+		</classes>
+	</test>
+ <!-- 
+	<test name="Tech Config Smoke Test" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.extendedsmoke.T13_Tech_Config_test" />
+		</classes>
+	</test> -->
+
+</suite>

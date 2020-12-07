@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Drive Regression Test Suite"
+	preserve-order="true">
+
+	<test name="Regression Test" preserve-order="true">
+	
+		<classes>
+		 <!-- 
+			<class name="com.dRive.tests.regression.T01_PCM_Pricing_TC_01_to_10" />
+			<class
+				name="com.dRive.tests.regression.T02_PCM_Price_Term_TC_63_to_67" />
+			<class
+				name="com.dRive.tests.regression.T03_PCM_Contract_BG_Workflows_TC_61_to_TC_62_TC_68_to_TC70" />
+			<class
+				name="com.dRive.tests.regression.T04_WAC_Change_Workflows_TC_58_to_60" />
+			<class
+				name="com.dRive.tests.regression.T05_Create_Clone_All_Editors_for_AP" />
+			<class
+				name="com.dRive.tests.regression.T06_Create_Assign_AP_TC_13to17_and_28to31" />
+			<class
+				name="com.dRive.tests.regression.T07_Using_PCM_Pricing_TC_01_to_10_For_PSC_TC85" />
+			<class
+				name="com.dRive.tests.regression.T08_Pricing_Scenario_Collection_TC_71_to_78" />
+			<class name="com.dRive.tests.regression.T09_Editors_TC_18to27" />
+			<class name="com.dRive.tests.regression.T10_Editors_TC_281_to_285" />
+			<class name="com.dRive.tests.regression.T11_Editors_TC_286_to_289" />
+			<class name="com.dRive.tests.regression.T12_Editors_TC_290_to_291" />
+			<class
+				name="com.dRive.tests.regression.T13_Metric_Summary_TC_94_to_109" />
+			<class
+				name="com.dRive.tests.regression.T14_TSE_TC_110_to_116_TC_119_120" />
+			<class name="com.dRive.tests.regression.T15_TSE_TC_117_118_121" />
+			<class name="com.dRive.tests.regression.T16_Product_labels_TCs" />
+			<class name="com.dRive.tests.regression.T17_Release_History_TCs" />
+			<class
+				name="com.dRive.tests.regression.T18_Upload_Editors_TC_264_to_269" />
+			<class
+				name="com.dRive.tests.regression.T19_Create_AE_AP_Close_Forecast" />
+			<class
+				name="com.dRive.tests.regression.T20_Verify_Close_Forecast_Snapshots" />
+			<class name="com.dRive.tests.regression.T21_Create_True_Up_Pipeline" />
+			<class
+				name="com.dRive.tests.regression.T22_Create_Verify_RR_BS_Snapshots" />
+			<class
+				name="com.dRive.tests.regression.T23_Close_Summary_Screen_TC_7_to_16" />
+			<class name="com.dRive.tests.regression.T24_VIZualizer" />
+			<class
+				name="com.dRive.tests.regression.T25_Close_Summary_Screen_TC_17_to_19" />
+			<class
+				name="com.dRive.tests.regression.T26_Internal_External_BS_Reconciliation" />
+			<class name="com.dRive.tests.regression.T27_APM_Test_TC_86_To_93" />
+			<class name="com.dRive.tests.regression.T28_GTN_UI_Part1" />
+			<class name="com.dRive.tests.regression.T29_GTN_UI_Part2" />
+			<class name="com.dRive.tests.regression.T30_GTN_UI_Part3" />
+			<class name="com.dRive.tests.regression.T31_GTN_CompareSnapshot_TCs" />
+			<class
+				name="com.dRive.tests.regression.T32_WholeSaler_Close_Accrual_Backend" />
+			<class
+				name="com.dRive.tests.regression.T33_WholeSaler_Forecasted_Accrual_Backend" />
+			<class name="com.dRive.tests.regression.T34_WAC_New_TCs" />
+			<class name="com.dRive.tests.regression.T35_TSE_TC_277_to_280" />
+			<class
+				name="com.dRive.tests.regression.T36_Expiring_Price_Change_TC_306" />
+			<class
+				name="com.dRive.tests.regression.T37_Chargebacks_Fed_VA_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T38_Chargebacks_Fed_VA_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T39_GP_TC_1_to_16" />
+			<class
+				name="com.dRive.tests.regression.T41_Cash_Discount_Close_Accrual" />
+			<class name="com.dRive.tests.regression.T42_Returns_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T43_Cash_Discount_Forecast_Accrual" />
+			<class name="com.dRive.tests.regression.T44_Returns_Forecast_Accrual" />
+			<class 
+				name="com.dRive.tests.regression.T45_Actual_Cash_Discount_Explain_Report" />
+			<class
+				name="com.dRive.tests.regression.T46_Actual_Returns_Explain_Report" />
+			<class 
+				name="com.dRive.tests.regression.T47_Gross_Demand_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T48_Gross_Demand__Forecast_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T49_Gross_Inventory_Change_Close_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T50_Gross_Inventory_Change_Forecast_Accrual" />
+			<class
+				name="com.dRive.tests.regression.T51_Actual_Gross_Inventory_Change" /> -->
+			<class
+				name="com.dRive.tests.regression.T52_Specialty_Pharmacy_Chargebacks_Prime_Close_Accrual" />
+		  <class name="com.dRive.tests.regression.T54_Copay_Close_Accrual" /> 
+		 <class name = "com.dRive.tests.regression.T56_Coverage_Gap_Close_Accrual" />
+			
+		</classes>
+
+	</test>
+	
+<!-- <test name="Parallel Regression Test" thread-count = "14" parallel = "methods">
+	<classes>
+	<class name = "com.dRive.tests.regression.Trial" />
+	</classes>
+	</test>  -->	
+</suite>

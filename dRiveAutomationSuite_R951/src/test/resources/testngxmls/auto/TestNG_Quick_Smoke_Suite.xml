@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Drive Build Deployment Verification" preserve-order="true">
+
+
+	 <test name="Verify Build Deployment" preserve-order="true">
+			<classes>
+			<class name="com.dRive.tests.quicksmoke.Trial1" /> 
+		</classes>
+	</test> 
+
+	
+
+</suite>

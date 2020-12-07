@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="d-Rive Smoke Test" preserve-order="true">
+	<!-- <test name="Verify KDF" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.Trial1.java" />
+		</classes>
+	</test>
+ -->
+	<test name="Verify methods" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T01_Editors_test.java" />
+		</classes>
+	</test>
+
+</suite>

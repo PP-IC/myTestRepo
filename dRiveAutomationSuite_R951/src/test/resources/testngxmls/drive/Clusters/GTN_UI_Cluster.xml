@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="GTN UI Cluster" preserve-order="true">
+
+	<test name="GTN UI Scenarios" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T28_GTN_UI_Part1" />
+			<class name="com.dRive.tests.regression.T29_GTN_UI_Part2" />
+			<class name="com.dRive.tests.regression.T30_GTN_UI_Part3" />
+			<class
+				name="com.dRive.tests.regression.T31_GTN_CompareSnapshot_TCs" />
+		</classes>
+	</test>
+
+</suite>

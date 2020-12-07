@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Maintenance Cluster"
+	preserve-order="true">
+
+	<test name="Upload Test" preserve-order="true">
+		<classes>
+		</classes>
+	</test>
+
+	<test name="ETL Data Mapping" preserve-order="true">
+		<classes>
+		</classes>
+	</test>
+
+	<test
+		name="Editors > Price List, Metric Summary List, Transaction Summary List, User Uploads"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T05_Create_Clone_All_Editors_for_AP" />
+
+		</classes>
+	</test>
+
+	<test name="Data Collections > Pricing Scenario Collections"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.dRive.tests.regression.T07_Using_PCM_Pricing_TC_01_to_10_For_PSC_TC85" />
+			<class
+				name="com.dRive.tests.regression.T08_Pricing_Scenario_Collection_TC_71_to_78" />
+		</classes>
+	</test>
+
+	<test
+		name="Assumption Packages > GTN Close Accrual Assumption Packages, GTN Forecast Accrual Assumnption Packages"
+		preserve-order="true">
+		<classes>
+		</classes>
+	</test>
+
+	<test name="Release History" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T16_Product_labels_TCs" />
+		</classes>
+	</test>
+
+	<test name="Product Labels" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.regression.T16_Product_labels_TCs" />
+		</classes>
+	</test>
+
+
+</suite>

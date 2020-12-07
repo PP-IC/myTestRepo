@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Drive Quick Smoke Test Suite" preserve-order="true">
+<!-- 
+<listeners>
+<listener class-name = 'com.automation.report.CustomizedEmailableReport'/>
+
+</listeners> -->
+
+<test name="PCM Smoke Test" preserve-order="true">
+		<parameter name="analystUserName" value="" />
+		<parameter name="analystPassword" value="" />
+		<parameter name="managerUsername" value="" />
+		<parameter name="managerPassword" value="" />
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T05_PCM_test" />
+		</classes>
+	</test>
+
+	<test name="Editors Smoke Test">
+		<parameter name="analystUserName" value="" />
+		<parameter name="analystPassword" value="" />
+		<parameter name="managerUsername" value="" />
+		<parameter name="managerPassword" value="" />
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T01_Editors_test" />
+		</classes>
+	</test>
+
+	<test name="Assumption Package Module Smoke Test">
+		<parameter name="analystUserName" value="" />
+		<parameter name="analystPassword" value="" />
+		<parameter name="managerUsername" value="" />
+		<parameter name="managerPassword" value="" />
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T02_APM_test" />
+		</classes>
+	</test>
+
+	<test name="Roles and Security Smoke Test">
+		<parameter name="analystUserName" value="" />
+		<parameter name="analystPassword" value="" />
+		<parameter name="managerUsername" value="" />
+		<parameter name="managerPassword" value="" />
+		<classes>
+			<class
+				name="com.dRive.tests.quicksmoke.T04_Roles_And_Security_test" />
+		</classes>
+	</test>
+
+	<test name="GTN Smoke Test" preserve-order="true">
+		<parameter name="analystUserName" value="" />
+		<parameter name="analystPassword" value="" />
+		<parameter name="managerUsername" value="" />
+		<parameter name="managerPassword" value="" />
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T03_GTN_test" />
+		</classes>
+	</test>
+
+	<!-- <test name="Tech Config Smoke Test" preserve-order="true"> <classes> 
+		<class name="com.dRive.tests.quicksmoke.T06_Tech_Config_test" /> </classes> 
+		</test> -->
+
+</suite>

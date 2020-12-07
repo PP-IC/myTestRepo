@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Multiple login" parallel="tests">
+
+	<test name="PCM Smoke Test" preserve-order="true">
+		<parameter name="analystUserName" value="atiwari_a@davizta.com" />
+		<parameter name="analystPassword" value="PrOject@19" />
+		<parameter name="managerUsername" value="DEF" />
+		<parameter name="managerPassword" value="UVW" />
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T05_PCM_test" />
+		</classes>
+	</test>
+<!--
+	<test name="Editors Smoke Test">
+		<parameter name="analystUserName" value="GHI" />
+		<parameter name="analystPassword" value="ABC" />
+		<parameter name="managerUsername" value="JKL" />
+		<parameter name="managerPassword" value="ABC" />
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T01_Editors_test" />
+		</classes>
+	</test>
+
+	<test name="Assumption Package Module Smoke Test">
+		<parameter name="analystUserName" value="MNO" />
+		<parameter name="analystPassword" value="MNO" />
+		<parameter name="managerUsername" value="PQR" />
+		<parameter name="managerPassword" value="ABC" />
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T02_APM_test" />
+		</classes>
+	</test>
+
+	<test name="Roles and Security Smoke Test">
+		<parameter name="analystUserName" value="STU" />
+		<parameter name="analystPassword" value="AXN" />
+		<parameter name="managerUsername" value="VWX" />
+		<parameter name="managerPassword" value="HBO" />
+		<classes>
+			<class
+				name="com.dRive.tests.quicksmoke.T04_Roles_And_Security_test" />
+		</classes>
+	</test>
+
+	<test name="GTN Smoke Test" preserve-order="true">
+		<parameter name="analystUserName" value="ABD" />
+		<parameter name="analystPassword" value="star" />
+		<parameter name="managerUsername" value="UVZ" />
+		<parameter name="managerPassword" value="espn" />
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T03_GTN_test" />
+		</classes>
+	</test>  -->
+
+	<!-- <test name="Tech Config Smoke Test" preserve-order="true"> <classes> 
+		<class name="com.dRive.tests.quicksmoke.T06_Tech_Config_test" /> </classes> 
+		</test> -->
+</suite>

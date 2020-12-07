@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Screen Response Time of all the dRive screens to load and perform the operations" preserve-order="true">
+
+<!-- 
+<listeners>
+<listener class-name = 'com.automation.report.CustomizedEmailableReport'/>
+
+</listeners> -->
+
+<!-- 
+ <test name="Editors-APM-RolesAndSecurity" parallel="classes"
+		thread-count="2">
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T01_Editors_test" />
+			<class name="com.dRive.tests.quicksmoke.T02_APM_test" /> 
+		<!--	<class name="com.dRive.tests.quicksmoke.T04_Roles_And_Security_test" />   -->
+		</classes>
+	</test>  
+	
+	 <test name="RolesAndSecurity">
+		<classes>
+			
+			<class name="com.dRive.tests.quicksmoke.T04_Roles_And_Security_test" />   
+		</classes>
+	</test> 
+ 
+	 <test name="PCM Smoke Test" preserve-order="true">
+			<classes>
+			<class name="com.dRive.tests.quicksmoke.T05_PCM_test" /> 
+		</classes>
+	</test> 
+
+	<test name="GTN Smoke Test" preserve-order="true">
+		<classes>
+			<class name="com.dRive.tests.quicksmoke.T03_GTN_test" />
+		</classes>
+	</test>    -->
+</suite>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Drive Regression Test Suite" preserve-order="true" thread-count="2" parallel="tests">
+	<test name="Chrome Test" preserve-order="false">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserVer" value="85" />
+		<groups>
+			<run>
+				<include name="Pre_Config" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.dRive.tests.GTNSnapshot.TC_GTN_Snapshot_Verification" />
+		</classes>
+	</test>
+
+<!-- 	<test name="IE Test" preserve-order="true"> 
+		<parameter name="browser" value="ie" /> 
+		<parameter name="browserVer" value="11" /> 
+			<groups> 
+				<run> 
+					<include name="Pre_Config" /> 
+				</run> 
+			</groups> 
+			<classes> 
+				<class name = "com.dRive.tests.GTNSnapshot.TC_GTN_Snapshot_Verification" /> 
+			</classes> 
+	</test> -->
+
+	<test name="Edge Test" preserve-order="false">
+		<parameter name="browser" value="edge" />
+		<parameter name="browserVer" value="85" />
+		<groups>
+			<run>
+				<include name="Pre_Config" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.dRive.tests.GTNSnapshot.TC_GTN_Snapshot_Verification" />
+		</classes>
+	</test>
+</suite>
